@@ -1,0 +1,24 @@
+import React, { useEffect } from 'react'
+import { Outlet, useNavigate } from 'react-router-dom'
+import Navbar from '../components/Navbar/Navbar'
+import { useSelector } from 'react-redux'
+import { selectUsers } from '../store/slices/usersSlice/usersSlice'
+
+function HomeWrapper() {
+  const {currentUser} = useSelector(selectUsers)
+  const navigate =  useNavigate()
+
+  useEffect(()=>{
+    if(!currentUser){
+      navigate('/auth/login')
+    }
+  },[currentUser])
+  return (
+    <div>
+    <Navbar />
+    <Outlet />
+    </div>
+  )
+}
+
+export default HomeWrapper

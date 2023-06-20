@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    width: 250px;
+    height: 35px;
+    border:  1px solid gray;
+    border-radius: 10px;
+}
+
+form button{
+    width: 250px;
+    height: 30px;
+    background-color: #4CB5F9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

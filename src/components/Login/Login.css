@@ -1,0 +1,79 @@
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 30px 0;
+}
+
+.LoginDiv1{
+    width: 350px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.LoginDiv1 img{
+    width: 200px;
+}
+
+.LoginDiv1 >span{
+    font-size: 18px;
+    color: gray;
+}
+
+.LoginFacebook{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.LoginFacebook a:first-child{
+    color: rgb(12, 12, 97);
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.LoginFacebook a:last-child{
+    color: rgb(5, 5, 75);
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.LoginDiv2{
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.LoginDiv2 a{
+    color: rgb(5, 5, 75);
+    text-decoration: none;
+}
+
+.LoginDiv3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.LoginDiv3 .LoginImagesLink{
+    display: flex;
+    column-gap: 10px;
+}
+.LoginDiv3 .LoginImagesLink a img{
+    width: 150px;
+}
+
+.LoginDiv3 >span{
+    font-size: 16px;
+    text-align: center;
+}
